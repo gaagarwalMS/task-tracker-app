@@ -4,8 +4,11 @@ Set-Variable -Scope Global -Name APPINSIGHTS_NAME -Value "appi-tasks-tracker-pfc
 Set-Variable -Scope Global -Name APPINSIGHTS_INSTRUMENTATIONKEY -Value "90066f31-8528-42d6-bed4-5971215f4323"
 Set-Variable -Scope Global -Name AZURE_CONTAINER_REGISTRY_NAME -Value "crtaskstrackerpfc6zb"
 Set-Variable -Scope Global -Name BACKEND_API_EXTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.salmonglacier-b6840892.eastus.azurecontainerapps.io"
+Set-Variable -Scope Global -Name BACKEND_API_INTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.internal.salmonglacier-b6840892.eastus.azurecontainerapps.io"
 Set-Variable -Scope Global -Name BACKEND_API_NAME -Value "tasksmanager-backend-api"
 Set-Variable -Scope Global -Name ENVIRONMENT -Value "cae-tasks-tracker"
+Set-Variable -Scope Global -Name FRONTEND_UI_BASE_URL -Value "https://tasksmanager-frontend-webapp.salmonglacier-b6840892.eastus.azurecontainerapps.io"
+Set-Variable -Scope Global -Name FRONTEND_WEBAPP_NAME -Value "tasksmanager-frontend-webapp"
 Set-Variable -Scope Global -Name LOCATION -Value "eastus"
 Set-Variable -Scope Global -Name RANDOM_STRING -Value "tsxfq7"
 Set-Variable -Scope Global -Name RESOURCE_GROUP -Value "rg-tasks-tracker-tsxfq7"
@@ -15,4 +18,4 @@ Set-Variable -Scope Global -Name WORKSPACE_ID -Value "b9196b08-8bee-45fd-b483-63
 Set-Variable -Scope Global -Name WORKSPACE_NAME -Value "log-tasks-tracker-pfc6zb"
 Set-Variable -Scope Global -Name WORKSPACE_SECRET -Value "V9hck+KbVNISs+KRQVLYXsAPGlC3WZ4xrHayKn3QZ+IGgjbEaF4g/MGwmyuerLeBsi7TkYZ/E6fyzX35CKarHA=="
 Set-Variable -Scope Global -Name TODAY -Value (Get-Date -Format 'yyyyMMdd')
-Write-Host "Set 16 variables."
+Write-Host "Set 19 variables."
