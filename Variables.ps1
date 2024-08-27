@@ -11,7 +11,7 @@ Set-Variable -Scope Global -Name BACKEND_API_NAME -Value "tasksmanager-backend-a
 Set-Variable -Scope Global -Name BACKEND_API_PRINCIPAL_ID -Value "c64baa65-9bb1-4b70-93f0-6440b9f67efc"
 Set-Variable -Scope Global -Name BACKEND_SERVICE_APP_PORT -Value 7004
 Set-Variable -Scope Global -Name BACKEND_SERVICE_NAME -Value "tasksmanager-backend-processor"
-Set-Variable -Scope Global -Name BACKEND_SERVICE_PRINCIPAL_ID -Value ""e7f5837d-911a-42a4-bb53-18ff70d966bb""
+Set-Variable -Scope Global -Name BACKEND_SERVICE_PRINCIPAL_ID -Value "e7f5837d-911a-42a4-bb53-18ff70d966bb"
 Set-Variable -Scope Global -Name COSMOS_DB_ACCOUNT -Value "cosmos-tasks-tracker-state-store-tsxfq7"
 Set-Variable -Scope Global -Name COSMOS_DB_CONTAINER -Value "taskscollection"
 Set-Variable -Scope Global -Name COSMOS_DB_DBNAME -Value "tasksmanagerdb"
@@ -31,7 +31,7 @@ Set-Variable -Scope Global -Name ROLE_ID -Value "00000000-0000-0000-0000-0000000
 Set-Variable -Scope Global -Name SERVICE_BUS_NAMESPACE_NAME -Value "sbns-taskstracker-tsxfq7"
 Set-Variable -Scope Global -Name SERVICE_BUS_TOPIC_NAME -Value "tasksavedtopic"
 Set-Variable -Scope Global -Name SERVICE_BUS_TOPIC_SUBSCRIPTION -Value "sbts-tasks-processor"
-Set-Variable -Scope Global -Name SIGNEDIN_USERID -Value ""f3f99ada-aadc-4ba4-b527-c672d259dce7""
+Set-Variable -Scope Global -Name SIGNEDIN_USERID -Value "f3f99ada-aadc-4ba4-b527-c672d259dce7"
 Set-Variable -Scope Global -Name STORAGE_ACCOUNT_NAME -Value "sttaskstrackertsxfq7"
 Set-Variable -Scope Global -Name STORAGE_ACCOUNT_KEY -Value "SAL7jM4YsbcFEaSE6nr6aHa0t5ZpsE005LKMCzcGyq2FPRsFzYMKqYG+B16lYQv6la4G36PLNVp9+AStCSMXEw=="
 Set-Variable -Scope Global -Name TARGET_PORT -Value 5000
